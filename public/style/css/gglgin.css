@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(230, 225, 220);
+}
+
+.google-box {
+    margin: 120px auto;
+    width: 1000px;
+    height: 550px;
+    border-radius: 8px;
+    background: rgb(230, 225, 220);
+    box-shadow: 10px 10px 15px rgb(192, 183, 183), -10px -10px 15px white;
+}
+
+.icon-list {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    float: right;
+    margin: 20px -50px 0 0;
+}
+
+.msg-icon {
+    width: 25px;
+    height: 25px;
+
+}
+
+.menu-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+.user-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.person-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.icon-list img:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.google-img {
+    width: 450px;
+    height: 150px;
+    margin: 100px 0 0 270px;
+}
+
+.search-box {
+    margin: 30px auto;
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    background: 230, 225, 220;
+    box-shadow: 10px 10px 15px rgb(192, 183, 183), -10px -10px 15px white;
+}
+
+.google-icon {
+    width: 29px;
+    height: 29px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.search-box input {
+    width: 260px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+
+.mic-icon {
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 240px;
+    cursor: pointer;
+}
+
+.icon-box {
+    width: 200px;
+    display: flex;
+    margin: 30px auto;
+
+}
+
+.add-icon {
+    width: 27px;
+    height: 27px;
+
+}
+
+.emoji-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+
+}
+
+.logo {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.E {
+    color: tomato;
+}
+
+.he {
+    color: darkturquoise;
+}
+
+.al {
+    color: lightcoral;
+}
+
+.th {
+    color: tomato;
+}
+
+.s {
+    color:#FF3333;
+}
+
+.o {
+    color:#9933ff;
+}
+
+.l {
+    color:#33ff99;
+}
+
+.u {
+    color:#6666FF;
+}
+
+.t {
+    color:#66b2ff;
+}
+
+.i {
+    color:#4AD0B0;
+}
+
+.n {
+    color:#ff6666;
+}
+
+.pic-icon {
+    width: 27px;
+    height: 27px;
+    margin-left: 50px;
+}
+
+.icon-box img:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.glyphicon-lg
+{
+    font-size:4em
+}
+.info-block
+{
+    border-right:5px solid #E6E6E6;margin-bottom:25px
+}
+.info-block .square-box
+{
+    width:100px;min-height:110px;margin-right:22px;text-align:center!important;background-color:#676767;padding:20px 0
+}
+.info-block.block-info
+{
+    border-color:#20819e
+}
+.info-block.block-info .square-box
+{
+    background-color:#20819e;color:#FFF;
+}
+.container .bld{
+    margin-top:5px;
+}
+.donner{
+
+}
+.hom{
+    background-image: linear-gradient(to right top, #ff0493, #ea32af, #cd4bc6, #ab5ed6, #836cdf, #736ce3, #5f6de6, #456de9, #5162ee, #6253f0, #7540f0, #8a1fec);
+}
+.bgroup{
+    display: flex;
+}

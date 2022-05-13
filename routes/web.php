@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+Route::get('/', 'main_controller@index');
+Route::get('/blood', 'main_controller@blood');
+Route::get('/diagnosis', 'main_controller@diagnosis');
+Route::get('/cart', 'main_controller@cart');
+Route::get('/contact', 'main_controller@contact');
+Route::get('/blog', 'main_controller@blog');
+Route::get('/medicine', 'main_controller@medicine');
+Route::get('/sign-in', 'main_controller@sign_in');
+Route::get('/login', 'main_controller@login');
+Route::get('/sign-out', 'main_controller@sign_out');
+Route::get('/profile', 'main_controller@profile');
+Route::get('/user-login', 'main_controller@user_login');
+Route::post('/save-doner', 'main_controller@save_doner');
+Route::post('/save-medicine', 'main_controller@save_medicine');
+Route::post('/save-diagnosis', 'main_controller@save_diagnosis');
+Route::post('/save-banner', 'main_controller@save_banner');
+Route::post('/save-blog', 'main_controller@save_blog');
+Route::post('/save-doctor', 'main_controller@save_doctor');
+Route::post('/save-contacts', 'main_controller@save_contacts');
+Route::post('/save-admin', 'main_controller@save_admin');
+Route::post('/login-do', 'main_controller@login_do');
+Route::post('/meetlink', 'main_controller@meetlink');
+Route::get('/save_meetlink', 'main_controller@save_meetlink');
+Route::get('/add2cart/{userid}/{medicineid}', 'main_controller@add2cart');
+Route::get('/addreport/{userid}/{diagnosisid}', 'main_controller@addreport');
+Route::get('/status-0/{from}/{id}', 'main_controller@status_0');
+Route::get('/status-1/{from}/{id}', 'main_controller@status_1');
+Route::get('/delete/{from}/{id}', 'main_controller@delete');
+Route::post('/save-user', 'main_controller@save_user');
+Route::post('/login-user', 'main_controller@login_user');
